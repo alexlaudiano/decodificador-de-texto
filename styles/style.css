@@ -21,16 +21,19 @@ body {
 
 .apresentacao__conteudo-direito {
     width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
-.apresentacao__conteudo-direito__texto1 {
+.apresentacao__conteudo-direito__texto__titulo {
     font-size: 24px;
     font-family: "Inter", sans-serif;
     font-weight: 700;
     color: #343A40;
 }
 
-.apresentacao__conteudo-direito__texto2 {
+.apresentacao__conteudo-direito__texto__paragrafo {
     font-size: 16px;
     font-family: "Inter", sans-serif;
     color: #495057;
