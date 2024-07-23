@@ -8,18 +8,26 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header>
+    <header class="cabecalho">
         <img src="./assets/logo-alura.png" alt="logo da alura">
     </header>
-    <main>
-        <p>Digite seu texto</p>
-        <img src="./assets/icone-exclamacao.png" alt="icone redondo de exclamacao">
-        <p>Apenas letras minúsculas e sem acento.</p>
-        <button>Criptografar</button>
-        <button>Descriptografar</button>
-        <img src="./assets/imagen-pagina.png" alt="imagem da pessoa com lupa">
-        <p>Nenhuma mensagem encontrada</p>
-        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo-esquerdo">
+            <textarea name="textarea" rows="25" cols="50">Digite seu texto</textarea>
+            <div class="apresentacao__conteudo-esquerdo__warning">
+                <img src="./assets/warning.png" alt="warning info">
+                <p class="apresentacao__conteudo-esquerdo__texto">Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="apresentacao__conteudo-esquerdo__botoes">
+                <button class="apresentacao__conteudo-esquerdo__botoes__botao" id="botaoCriptografar">Criptografar</button>
+                <button class="apresentacao__conteudo-esquerdo__botoes__botao" id="botaoDescriptografar">Descriptografar</button>
+            </div>
+        </section>
+        <section class="apresentacao__conteudo-direito">
+            <img src="./assets/imagen-pagina.png" alt="figura de uma pessoa segurando uma lupa">
+            <p class="apresentacao__conteudo-direito__texto1">Nenhuma mensagem encontrada</p>
+            <p class="apresentacao__conteudo-direito__texto2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </section>
     </main>
     <footer></footer>
 </body>

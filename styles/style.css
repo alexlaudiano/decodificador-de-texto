@@ -1,4 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: aquamarine;
-    color: white;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #F3F5FC;
+    color: #0A3871;
+}
+
+.apresentacao {
+    margin: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo-direito {
+    width: 400px;
+}
+
+.apresentacao__conteudo-direito__texto1 {
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: #343A40;
+}
+
+.apresentacao__conteudo-direito__texto2 {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: #495057;
+}
+
+.apresentacao__conteudo-esquerdo {
+    width: 680px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.apresentacao__conteudo-esquerdo__warning {
+    display: flex;
+    gap: 13px;
+}
+
+.apresentacao__conteudo-esquerdo__texto {
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+    color: #495057;
+}
+
+.apresentacao__conteudo-esquerdo__botoes {
+    display: flex;
+    gap: 2em;
+}
+
+.apresentacao__conteudo-esquerdo__botoes__botao {
+    background-color: #D8DFE8;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: #0A3871;
 }
