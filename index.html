@@ -5,35 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Decodificador de texto | Projeto de Curso | Alura</title>
+    <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
     <header class="cabecalho">
         <img src="./assets/logo-alura.png" alt="logo da alura">
-        <h1>Decodificador de Texto | Projeto de Curso | Alura</h1>
+        <h1>Decodificador de Texto | Challenge ONE: Iniciante em Programação</h1>
     </header>
-    <main class="apresentacao">
-        <section class="apresentacao__conteudo-esquerdo">
-            <textarea name="textarea" rows="25" cols="50">Digite seu texto</textarea>
-            <div class="apresentacao__conteudo-esquerdo__warning">
-                <img src="./assets/warning.png" alt="warning info">
-                <p class="apresentacao__conteudo-esquerdo__texto">Apenas letras minúsculas e sem acento.</p>
+    <main class="container">
+        <section class="container__input">
+            <div class="container__input__dados">
+                <textarea class="container__input__dados__texto" id="textoEsquerdo" placeholder="Digite sua mensagem"></textarea>
             </div>
-            <div class="apresentacao__conteudo-esquerdo__botoes">
-                <button class="apresentacao__conteudo-esquerdo__botoes__botao" id="botaoCriptografar">Criptografar</button>
-                <button class="apresentacao__conteudo-esquerdo__botoes__botao" id="botaoDescriptografar">Descriptografar</button>
+            <div class="container__input__observacao">
+                <img src="./assets/warning.png" alt="Ícone de exclamação">
+                <p class="container__input__observacao__texto">Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="container__input__botao">
+                <button class="container__input__botao__criptografar" onclick="escolherOpcao('criptografar')" title="Criptografar">Criptografar</button>
+                <button class="container__input__botao__descriptografar" onclick="escolherOpcao('descriptografar')" title="Descriptografar">Descriptografar</button>
             </div>
         </section>
-        <section class="apresentacao__conteudo-direito">
-            <img src="./assets/imagen-pagina.png" alt="figura de uma pessoa segurando uma lupa">
-            <div class="apresentacao__conteudo-direito__texto">
-                <h2 class="apresentacao__conteudo-direito__texto__titulo">Nenhuma mensagem encontrada</h2>
-                <p class="apresentacao__conteudo-direito__texto__paragrafo">Digite um texto que você deseja criptografar ou descriptografar.</p>
+        <section class="container__output">
+            <div class="container__output__conteudo">
+                <img class="container__output__conteudo__imagem" src="./assets/imagen-pagina.png" alt="Pessoa segurando uma lupa">
+                <h2 class="container__output__conteudo__subtitulo">Nenhuma mensagem encontrada</h2>
+                <p class="container__output__conteudo__paragrafo">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <div class="container__output__dados">
+                <textarea class="container__output__dados__texto" id="resultado" readonly></textarea>
+                <button class="conteudo__output__dados__botao" onclick="copiarTexto()" id="Copiar" title="Copiar texto">Copiar</button>
             </div>
         </section>
     </main>
     <footer class="rodape">
         <p>Desenvolvido por Alex Laudiano</p>
+        <a href="https://www.linkedin.com/in/alex-laudiano">LinkedIn</a>
+        <a href="https://github.com/alex-laudiano">GitHub</a>
     </footer>
 </body>
 </html>
