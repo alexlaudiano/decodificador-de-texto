@@ -33,7 +33,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0% 0% 0% 12%;
-    gap: 32px;
+    gap: 16px;
 }
 
 textarea::placeholder {
@@ -64,7 +64,7 @@ textarea::placeholder {
 
 .container__input__observacao__texto {
     font-family: "Inter", sans-serif;
-    color: #343A40;
+    color: #495057;
     padding-left: 5px;
 }
 
@@ -78,11 +78,11 @@ textarea::placeholder {
     box-shadow: none;
     width: 300px;
     border-radius: 30px;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 300;
     padding: 24px;
     background-color: #0A3871;
-    color: #F6F0F0;
+    color: #FFFFFF;
     font-family: "Inter", sans-serif;
     text-align: center;
 }
@@ -95,8 +95,8 @@ textarea::placeholder {
 .container__input__botao__descriptografar {
     width: 300px;
     border-radius: 30px;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 300;
     padding: 24px;
     background-color: #D8DFE8;
     color: #0A3871;
@@ -130,7 +130,7 @@ textarea::placeholder {
 
 .container__output__conteudo__subtitulo {
     font-family: "Inter", sans-serif;
-    color: #232427;
+    color: #343A40;
     font-size: 24px;
     font-weight: bold;
     text-align: center;
@@ -138,7 +138,7 @@ textarea::placeholder {
 
 .container__output__conteudo__paragrafo {
     font-family: "Inter", sans-serif;
-    color: #232427;
+    color: #495057;
     font-size: 16px;
     text-align: center;
 }
