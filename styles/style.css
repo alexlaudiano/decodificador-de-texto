@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     box-sizing: border-box;
     background-color: #F3F5FC;
@@ -205,4 +210,23 @@ textarea::placeholder {
     font-family: "Inter", sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__texto {
+        justify-content: center;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    .container__input {
+        width: auto;
+    }
 }
