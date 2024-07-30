@@ -23,7 +23,7 @@ body {
 .cabecalho {
     display: flex;
     align-items: center;
-    padding: 1% 0% 0% 5%;
+    padding: 3% 0% 0% 5%;
     gap: 8%;
 }
 
@@ -168,15 +168,16 @@ textarea::placeholder {
     width: 300px;
     height: 700px;
     border-radius: 32px;
-    padding: 30px;
+    padding: 5% 5% 45% 5%;
 }
 
 .container__output__dados__texto {
     background: none;
     border: none;
+    color: var(--dark-blue-300);
     width: 300px;
     height: 700px;
-    font-size: 1.25rem;
+    font-size: 2rem;
     font-weight: 300;
     font-family: "Inter", sans-serif;
     resize: none;
@@ -188,7 +189,7 @@ textarea::placeholder {
 .container__output__dados__botao {
     box-shadow: none;
     width: 300px;
-    border-radius: 32px;
+    border-radius: 24px;
     font-size: 1rem;
     font-weight: 600;
     padding: 24px;
@@ -208,7 +209,7 @@ textarea::placeholder {
     display: flex;
     justify-content: center;
     padding: 24px;
-    background-color: #0A3871;
+    background-color: var(--dark-blue-300);
     text-align: center;
     font-family: "Inter", sans-serif;
     font-size: 1.5rem;
