@@ -22,8 +22,8 @@
                 <p class="container__input__observacao__texto">Apenas letras minúsculas e sem acento.</p>
             </div>
             <div class="container__input__botao">
-                <button class="container__input__botao__criptografar" onclick="escolherOpcao('criptografar')" title="Criptografar">Criptografar</button>
-                <button class="container__input__botao__descriptografar" onclick="escolherOpcao('descriptografar')" title="Descriptografar">Descriptografar</button>
+                <button onclick="escolherOpcao('codificar')" class="container__input__botao__criptografar">Criptografar</button>
+                <button onclick="escolherOpcao('decodificar')" class="container__input__botao__descriptografar">Descriptografar</button>
             </div>
         </section>
         <section class="container__output">
@@ -36,9 +36,10 @@
             </div>
             <div class="container__output__dados">
                 <textarea class="container__output__dados__texto" id="resultado" readonly></textarea>
-                <button class="conteudo__output__dados__botao" onclick="copiarTexto()" id="Copiar" title="Copiar texto">Copiar</button>
+                <button onclick="copiarTexto()" class="container__output__dados__botao" id="Copiar">Copiar</button>
             </div>
         </section>
+        <script src="app.js"></script>
     </main>
     <footer class="rodape">
         <p class="rodape__texto">Desenvolvido por Alex Laudiano</p>
