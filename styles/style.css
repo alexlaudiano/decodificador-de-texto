@@ -91,7 +91,8 @@ textarea::placeholder {
 
 .container__input__botao__criptografar {
     box-shadow: none;
-    width: 50%;
+    width: 328px;
+    border: 1px solid var(--dark-blue-300);
     border-radius: 24px;
     font-size: 1rem;
     font-weight: 300;
@@ -100,6 +101,7 @@ textarea::placeholder {
     color: var(--White);
     font-family: "Inter", sans-serif;
     text-align: center;
+    cursor: pointer;
 }
 
 .container__input__botao__criptografar:hover {
@@ -109,8 +111,9 @@ textarea::placeholder {
 
 .container__input__botao__descriptografar {
     box-shadow: none;
-    width: 50%;
+    width: 328px;
     border-radius: 24px;
+    border: 1px solid var(--dark-blue-300);
     font-size: 1rem;
     font-weight: 300;
     padding: 24px;
@@ -118,6 +121,7 @@ textarea::placeholder {
     color: var(--dark-blue-300);
     font-family: "Inter", sans-serif;
     text-align: center;
+    cursor: pointer;
 }
 
 .container__input__botao__descriptografar:hover {
@@ -192,8 +196,9 @@ textarea::placeholder {
 
 .container__output__dados__botao {
     box-shadow: none;
-    width: 300px;
+    width: 328px;
     border-radius: 24px;
+    border: 1px solid var(--dark-blue-300);
     font-size: 1rem;
     font-weight: 600;
     padding: 24px;
@@ -201,7 +206,7 @@ textarea::placeholder {
     color: var(--dark-blue-300);
     font-family: "Inter", sans-serif;
     text-align: center;
-    transition: 400ms;
+    cursor: pointer;;
 }
 
 .container__output__dados__botao:hover {
@@ -212,6 +217,7 @@ textarea::placeholder {
 .rodape {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 24px;
     background-color: var(--dark-blue-300);
     text-align: center;
