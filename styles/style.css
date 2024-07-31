@@ -234,3 +234,87 @@ textarea::placeholder {
     color: var(--White);
     gap: 20px;
 }
+
+@media (max-width: 1024px) {
+    .container {
+        justify-content: center;
+        padding: 5% 10%;
+        gap: 50px;
+    }
+
+    .container__input__dados__texto, .container__output__dados__texto {
+        height: 300px;
+    }
+}
+
+@media (max-width: 940px) {
+    .cabecalho {
+        flex-direction:row;
+        padding: 5% 10%;
+    }
+
+    .cabecalho__texto {
+        display: none;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 5%;
+    }
+
+    .container__input, .container__output {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .container__output__conteudo {
+        width: auto;
+        height: 100px;
+        padding: 2%;
+    }
+
+    .container__input__botao {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container__input__botao__criptografar, .container__input__botao__descriptografar {
+        width: 100%;
+    }
+
+    .container__output__conteudo__imagem {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        --tamanho-fonte-primaria: 1.5rem;
+        --tamanho-fonte-secundaria: 1.25rem;
+        --tamanho-fonte-terciaria: 1rem;
+        --tamanho-fonte-quartenario: 0.875rem;
+    }
+
+    .cabecalho__texto {
+        font-size: var(--tamanho-fonte-secundaria);
+    }
+
+    .container {
+        padding: 5%;
+        gap: 30px;
+    }
+
+    .container__input__dados__texto, .container__output__dados__texto {
+        height: 200px;
+    }
+
+    .container__output__conteudo {
+        width: auto;
+    }
+
+    .container__output__dados {
+        width: auto;
+        max-height: 300px;
+    }
+}
