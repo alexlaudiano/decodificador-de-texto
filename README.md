@@ -5,8 +5,10 @@
     <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
 </p>
 
-### Tópicos
+<div align="center">
 
+### Tópicos
+  
 :small_blue_diamond: [Prévia do Projeto](#prévia-do-projeto)
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
 :small_blue_diamond: [Exemplo de Conversão](#exemplo-de-conversão)
@@ -21,6 +23,8 @@
 :small_blue_diamond: [Badge](#badge)
 :small_blue_diamond: [Realizado por](#realizado-por)
 :small_blue_diamond: [Licença](#licença)
+
+</div>
 
 ## Prévia do Projeto
 
