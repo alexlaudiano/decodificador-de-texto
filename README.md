@@ -20,8 +20,6 @@
 :small_blue_diamond: [Realizado por](#realizado-por)
 :small_blue_diamond: [Licença](#licença)
 
-Aplicação que criptografa textos, assim você poderá trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada.
-
 ## Prévia do Projeto
 
 ![image](https://github.com/user-attachments/assets/6bc88a6c-7991-4502-8919-57195b33202a)
