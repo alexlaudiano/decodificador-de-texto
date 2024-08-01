@@ -51,3 +51,40 @@ Este projeto consiste em uma aplicação web que permite a criptografia e descri
     cd decodificador-de-texto
     ```
 3. Abra o arquivo `index.html` no seu navegador.
+
+## Como Utilizar o Decodificador de Texto
+
+Para utilizar o decodificador de texto, siga os passos abaixo:
+
+1. Acesse a página da aplicação clicando aqui.
+2. Insira o texto que deseja criptografar ou descriptografar no campo correspondente.
+3. Selecione a opção desejada: criptografia ou descriptografia.
+4. Clique no botão "Criptografar" ou "Descriptografar", conforme a sua escolha.
+5. O resultado da operação será exibido no lado direito da tela.
+6. Para copiar o resultado para a área de transferência, clique no botão "Copiar".
+
+## Contribuição
+
+Sinta-se à vontade para contribuir com este projeto. Para isso, siga os passos abaixo:
+
+1. Faça um fork deste repositório.
+2. Crie uma branch com a sua feature: `git checkout -b minha-feature`
+3. Commit suas mudanças: `git commit -m 'Minha nova feature'`
+4. Faça um push para a branch: `git push origin minha-feature`
+5. Abra um Pull Request
+
+## Badge
+
+![Decodificador de texto](https://github.com/user-attachments/assets/323e754c-6ada-4b9c-a01a-61a198f81b3f)
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## Contato
+
+Para mais informações, entre em contato através do e-mail: [seu-email@example.com](mailto:seu-email@example.com).
+
+---
+
+**Divirta-se criptografando e descriptografando mensagens!**
