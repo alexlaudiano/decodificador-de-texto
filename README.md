@@ -1,5 +1,22 @@
 # Decodificador de Texto
 
+<p align="left">
+    <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
+    <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
+</p>
+
+### Tópicos
+
+:small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
+
+:small_blue_diamond: [Funcionalidades](#funcionalidades)
+
+:small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação-dash)
+
+:small_blue_diamond: [Pré-requisitos](#pré-requisitos)
+
+:small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
+
 Aplicação que criptografa textos, assim você poderá trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada.
 
 ## Prévia do Projeto
@@ -8,7 +25,9 @@ Aplicação que criptografa textos, assim você poderá trocar mensagens secreta
 
 ## Descrição do Projeto
 
-Este projeto consiste em uma aplicação web que permite a criptografia e descriptografia de textos usando chaves de substituição específicas. As chaves de criptografia utilizadas são as seguintes:
+Este projeto consiste em uma aplicação web que permite a criptografia e descriptografia de textos usando chaves de substituição específicas, assim você poderá trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada. 
+
+As chaves de criptografia utilizadas são as seguintes:
 
 - A letra "e" é convertida para "enter"
 - A letra "i" é convertida para "imes"
@@ -75,15 +94,21 @@ Sinta-se à vontade para contribuir com este projeto. Para isso, siga os passos 
 
 ## Badge
 
+Recompensa de conclusão do desafio ✅
+
 ![Decodificador de texto](https://github.com/user-attachments/assets/323e754c-6ada-4b9c-a01a-61a198f81b3f)
+
+## Realizado por
+
+* Alex Laudiano | [Linkedin](https://www.linkedin.com/in/laudiano/)
+
+Para mais informações, entre em contato através do e-mail: [seu-email@example.com](mailto:seu-email@example.com).
 
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## Contato
-
-Para mais informações, entre em contato através do e-mail: [seu-email@example.com](mailto:seu-email@example.com).
+Copyright :copyright: 2024 - Decodificador de Texto
 
 ---
 
