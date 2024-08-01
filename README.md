@@ -109,8 +109,6 @@ Para mais informações, entre em contato através do e-mail: [laudiano@gmail.co
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-Copyright :copyright: 2024 - Decodificador de Texto
-
 ---
 
 **Divirta-se criptografando e descriptografando mensagens!**
