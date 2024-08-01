@@ -103,7 +103,7 @@ Recompensa de conclusão do desafio ✅
 
 * Alex Laudiano | [Linkedin](https://www.linkedin.com/in/laudiano/)
 
-Para mais informações, entre em contato através do e-mail: [seu-email@example.com](mailto:laudiano@gmail.com).
+Para mais informações, entre em contato através do e-mail: [laudiano@gmail.com](mailto:laudiano@gmail.com).
 
 ## Licença
 
