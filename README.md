@@ -11,14 +11,14 @@
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
 :small_blue_diamond: [Exemplo de Conversão](#exemplo-de-conversão)
 :small_blue_diamond: [Requisitos](#requisitos)
+
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 :small_blue_diamond: [Tecnologias Utilizadas](#tecnologias-utilizadas)
-
 :small_blue_diamond: [Como Executar o Projeto](#como-executar-o-projeto)
 :small_blue_diamond: [Como Utilizar o Decodificador de Texto](#como-utilizar-o-decodificador-de-texto)
+
 :small_blue_diamond: [Contribuição](#contribuição)
 :small_blue_diamond: [Badge](#badge)
-
 :small_blue_diamond: [Realizado por](#realizado-por)
 :small_blue_diamond: [Licença](#licença)
 
