@@ -75,7 +75,7 @@ As chaves de criptografia utilizadas são as seguintes:
 
 Para utilizar o decodificador de texto, siga os passos abaixo:
 
-1. Acesse a página da aplicação clicando aqui.
+1. Acesse a página da aplicação [clicando aqui](https://alexlaudiano.github.io/decodificador-de-texto/).
 2. Insira o texto que deseja criptografar ou descriptografar no campo correspondente.
 3. Selecione a opção desejada: criptografia ou descriptografia.
 4. Clique no botão "Criptografar" ou "Descriptografar", conforme a sua escolha.
