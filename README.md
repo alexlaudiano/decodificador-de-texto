@@ -102,9 +102,13 @@ Recompensa de conclusão do desafio ✅
 
 ## Realizado por
 
-* Alex Laudiano | [Linkedin](https://www.linkedin.com/in/laudiano/)
+* Alex Laudiano
 
-Para mais informações, entre em contato através do e-mail: [laudiano@gmail.com](mailto:laudiano@gmail.com).
+Para mais informações, entre em contato:
+
+[![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-373737?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/laudiano/)
+[![Gmail Badge](https://img.shields.io/badge/Gmail-373737?style=flat&logo=Gmail&logoColor=white)](mailto:laudiano@gmail.com)
+[![Instagram Badge](https://img.shields.io/badge/-Instagram-373737?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/laudianoalex/?hl=pt-br)
 
 ## Licença
 
